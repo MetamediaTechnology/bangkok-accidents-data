@@ -10,5 +10,6 @@ Preliminary analysis:
 - Extract only accidents (type=3) 34,875 records
 - Find top 100 points with the radius of about 100m (0.001 degree) that have highest concentration of accidents.
 - Group the connected points together in clusters.
+- Reverse geocoding to get road, subdistrict, district information from Longdo Map (https://map.longdo.com/docs/javascript/coordinate/reverse-geocoding)
 - Top 50 clusters are 20220619-accident_grids_itic_2022_2020-top-100.csv
 
